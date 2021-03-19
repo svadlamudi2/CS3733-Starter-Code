@@ -2,14 +2,18 @@ package edu.wpi.teamname;
 
 import javafx.application.Application;
 import javafx.stage.Stage;
-import lombok.extern.slf4j.Slf4j;
 
-@Slf4j
 public class App extends Application {
 
+
+  /**
+   * This class file will be used for your application.
+   * You will learn more about how this works at a later date. For now, just note that your
+   * App will use a Stage object to make a JavaFX scene.
+   */
   @Override
   public void init() {
-    log.info("Starting Up");
+    System.out.println("Starting up");
   }
 
   @Override
@@ -17,6 +21,6 @@ public class App extends Application {
 
   @Override
   public void stop() {
-    log.info("Shutting Down");
+  System.out.println("Shutting Down");
   }
 }
