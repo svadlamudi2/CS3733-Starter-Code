@@ -13,7 +13,7 @@ public class Main {
     System.out.println("Sai Vadlamudi");
     System.out.println("Ryan Harris");
     System.out.println("Ananya Gopalan");
-    System.out.println("Nina Taurich");
+    System.out.println("Finn Wander");
 
   }
 }
